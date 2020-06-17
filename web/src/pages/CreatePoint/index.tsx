@@ -64,7 +64,7 @@ const CreatePoint = () => {
 
   function handleSelectCity (event: ChangeEvent<HTMLSelectElement>) {
     const city = event.target.value;
-    setSelectedUf(city)
+    setSelectedCity(city)
   }
 
   return (
