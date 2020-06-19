@@ -1,5 +1,7 @@
 import React from 'react';
 import { View, Image, StyleSheet, Text, ImageBackground } from 'react-native';
+import { RectButton } from 'react-native-gesture-handler';
+import { Feather as Icon } from '@expo/vector-icons';
 
 // import { Container } from './styles';
 
@@ -16,6 +18,17 @@ const Home = () => {
         <Image source={require('../../assets/logo.png')}/>
         <Text style={styles.title}>Seu marketplace de coleta de resíduos.</Text>
         <Text style={styles.description}>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</Text>
+      </View>
+
+      <View style={styles.footer}>
+        <RectButton style={styles.button}>
+          <View style={styles.buttonIcon}>
+            <Icon name="arrow-right" size={16} color="#fff"/>
+          </View>
+          <Text style={styles.buttonText}>
+            Entrar
+          </Text>
+        </RectButton>
       </View>
     </ImageBackground>
   );  
@@ -78,7 +91,9 @@ const styles = StyleSheet.create({
     width: 60,
     backgroundColor: 'rgba(0, 0, 0, 0.1)',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    borderTopLeftRadius: 10,
+    borderBottomLeftRadius: 10,
   },
 
   buttonText: {
