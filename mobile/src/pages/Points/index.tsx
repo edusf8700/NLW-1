@@ -62,27 +62,27 @@ const Points = () => {
           contentContainerStyle={{ paddingHorizontal: 20}}
         >
         <TouchableOpacity style={styles.item}>
-          <SvgUri width={42} height={42} uri="http://192.168.10.15:3333/uploads/lampadas.svg"/>
+          <SvgUri width={42} height={42} uri="http://192.168.10.20:3333/uploads/lampadas.svg"/>
           <Text style={styles.itemTitle}>Lâmpadas</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.item}>
-          <SvgUri width={42} height={42} uri="http://192.168.10.15:3333/uploads/lampadas.svg"/>
+          <SvgUri width={42} height={42} uri="http://192.168.10.20:3333/uploads/lampadas.svg"/>
           <Text style={styles.itemTitle}>Lâmpadas</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.item}>
-          <SvgUri width={42} height={42} uri="http://192.168.10.15:3333/uploads/lampadas.svg"/>
+          <SvgUri width={42} height={42} uri="http://192.168.10.20:3333/uploads/lampadas.svg"/>
           <Text style={styles.itemTitle}>Lâmpadas</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.item}>
-          <SvgUri width={42} height={42} uri="http://192.168.10.15:3333/uploads/lampadas.svg"/>
+          <SvgUri width={42} height={42} uri="http://192.168.10.20:3333/uploads/lampadas.svg"/>
           <Text style={styles.itemTitle}>Lâmpadas</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.item}>
-          <SvgUri width={42} height={42} uri="http://192.168.10.15:3333/uploads/lampadas.svg"/>
+          <SvgUri width={42} height={42} uri="http://192.168.10.20:3333/uploads/lampadas.svg"/>
           <Text style={styles.itemTitle}>Lâmpadas</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.item}>
-          <SvgUri width={42} height={42} uri="http://192.168.10.15:3333/uploads/lampadas.svg"/>
+          <SvgUri width={42} height={42} uri="http://192.168.10.20:3333/uploads/lampadas.svg"/>
           <Text style={styles.itemTitle}>Lâmpadas</Text>
         </TouchableOpacity>
         </ScrollView>
